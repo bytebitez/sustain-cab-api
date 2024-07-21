@@ -1,0 +1,27 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "docker:build": "docker build -t auth-service .",
+    "docker:up": "docker-compose up"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^8.0.0",
+    "@fastify/swagger-ui": "^7.0.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
