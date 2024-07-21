@@ -124,7 +124,6 @@ export default async function (server: FastifyInstance) {
     },
     preHandler: async (request: any, reply: any) => {
       // Implement authentication check here
-      // For example, add a preHandler to check the user's JWT token
     },
   }, changePasswordHandler);
 }

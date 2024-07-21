@@ -10,9 +10,9 @@
     "docker:up": "docker-compose up"
   },
   "dependencies": {
-    "@fastify/swagger": "^8.0.0",
-    "@fastify/swagger-ui": "^7.0.0",
-    "bcrypt": "^5.1.0",
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^4.0.1",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.3",
     "fastify": "^4.0.0",
     "jsonwebtoken": "^9.0.0",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
+    "@types/bcryptjs": "^2.4.6",
     "@types/jsonwebtoken": "^9.0.0",
     "@types/node": "^18.0.0",
     "typescript": "^5.0.0"

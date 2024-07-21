@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { ObjectId } from 'mongodb';
 import { JWT_SECRET, JWT_EXPIRES_IN } from '../config';

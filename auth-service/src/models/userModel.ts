@@ -1,5 +1,5 @@
 import { ObjectId } from 'mongodb';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 export interface User {
   _id?: ObjectId;
