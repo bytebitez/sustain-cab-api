@@ -57,10 +57,13 @@ server.register(FastifySwaggerUI, {
   },
 });
 
+wjfdkdbkjdbsksjbdkjss
+
 // Connect to MongoDB
 connectToDatabase(server);
 
 // Register routes
 server.register(authRoutes);
+wjnkjfkfbc
 
 export default server;
