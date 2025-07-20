@@ -13,7 +13,6 @@ export class AuthService {
       email,
       password: hashedPassword,
     });
-    return user.ops[0];
   }
 
   async login(server: FastifyInstance, email: string, password: string) {
